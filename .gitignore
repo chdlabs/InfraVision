@@ -36,3 +36,11 @@ appsettings.Development.json
 
 # Misc
 coverage/
+
+*.db
+
+*.suo
+
+*.user
+
+.idea/
