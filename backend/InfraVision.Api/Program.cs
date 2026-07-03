@@ -1,16 +1,10 @@
 using Serilog;
 using InfraVision.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
-
+using InfraVision.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://0.0.0.0:5163");
-
-builder.Services.AddDbContext<InfraVisionDbContext>(options =>
-{
-    options.UseNpgsql(
-        builder.Configuration.GetConnectionString("Postgres"));
-});
 
 // LOGGING
 builder.Host.UseSerilog((ctx, lc) =>
@@ -23,6 +17,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks();
+builder.Services.AddScoped<ServerRepository>();
+
+builder.Services.AddDbContext<InfraVisionDbContext>(options =>
+{
+    options.UseNpgsql(
+        builder.Configuration.GetConnectionString("Postgres"));
+});
 
 var app = builder.Build();
 
