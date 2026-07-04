@@ -1,10 +1,11 @@
+using InfraVision.Domain.Interfaces;
 using InfraVision.Domain.Entities;
 using InfraVision.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace InfraVision.Infrastructure.Repositories;
 
-public class ServerRepository
+public class ServerRepository : IServerRepository
 {
     private readonly InfraVisionDbContext _context;
 

@@ -1,6 +1,6 @@
-namespace InfraVision.Domain.Entities;
+namespace InfraVision.Application.DTOs;
 
-public class Server
+public class ServerDto
 {
     public Guid Id { get; set; }
     public string Hostname { get; set; } = string.Empty;
