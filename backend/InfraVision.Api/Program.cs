@@ -2,6 +2,12 @@ using Serilog;
 using InfraVision.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using InfraVision.Infrastructure.Repositories;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using InfraVision.Application.Validators;
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateServerValidator>();
 
 var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://0.0.0.0:5163");
@@ -18,7 +24,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks();
 builder.Services.AddScoped<ServerRepository>();
-
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateServerValidator>();
 builder.Services.AddDbContext<InfraVisionDbContext>(options =>
 {
     options.UseNpgsql(
