@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: infravision-api
+  namespace: infravision
+  labels:
+    app: infravision-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: infravision-api
+  template:
+    metadata:
+      labels:
+        app: infravision-api
+    spec:
+      containers:
+        - name: infravision-api
+          image: docker.io/library/infravision-api:1.0
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5163
+          envFrom:
+            - secretRef:
+                name: infravision-secrets
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: "Production"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 5163
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 5163
+            initialDelaySeconds: 10
+            periodSeconds: 20
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: infravision-api
+  namespace: infravision
+spec:
+  selector:
+    app: infravision-api
+  ports:
+    - port: 80
+      targetPort: 5163
+  type: ClusterIP

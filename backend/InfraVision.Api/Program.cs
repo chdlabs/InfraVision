@@ -70,6 +70,16 @@ builder.Services.AddDbContext<InfraVisionDbContext>(options =>
         builder.Configuration.GetConnectionString("Postgres"));
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend", policy =>
+    {
+        policy.WithOrigins("http://infravision.local:5173")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 // AUTHENTIFICATION JWT
 var jwt = builder.Configuration.GetSection("Jwt");
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -103,5 +113,10 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.MapHealthChecks("/health");
+
+app.UseHttpsRedirection();
+app.UseCors("AllowFrontend");
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.Run();
