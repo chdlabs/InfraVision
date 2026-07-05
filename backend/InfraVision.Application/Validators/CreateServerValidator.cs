@@ -8,6 +8,12 @@ public class CreateServerValidator : AbstractValidator<CreateServerDto>
     private static readonly string[] AllowedEnvironments =
         { "Production", "Staging", "Development", "Test" };
 
+    private static readonly string[] AllowedCriticality =
+        { "Critical", "High", "Medium", "Low" };
+
+    private static readonly string[] AllowedLifecycle =
+        { "InService", "Maintenance", "Decommissioning", "Retired" };
+
     public CreateServerValidator()
     {
         RuleFor(x => x.Hostname)
@@ -24,16 +30,26 @@ public class CreateServerValidator : AbstractValidator<CreateServerDto>
 
         RuleFor(x => x.Environment)
             .NotEmpty()
-            .Must(env => AllowedEnvironments.Contains(env))
+            .Must(v => AllowedEnvironments.Contains(v))
             .WithMessage("Environment doit être : Production, Staging, Development ou Test.");
 
         RuleFor(x => x.CpuCores)
             .GreaterThan(0).WithMessage("CpuCores doit être supérieur à 0.");
 
-        RuleFor(x => x.MemoryTotalGb)
-            .GreaterThanOrEqualTo(0);
+        RuleFor(x => x.MemoryTotalGb).GreaterThanOrEqualTo(0);
+        RuleFor(x => x.DiskTotalGb).GreaterThanOrEqualTo(0);
 
-        RuleFor(x => x.DiskTotalGb)
-            .GreaterThanOrEqualTo(0);
+        RuleFor(x => x.Criticality)
+            .Must(v => AllowedCriticality.Contains(v))
+            .WithMessage("Criticality doit être : Critical, High, Medium ou Low.");
+
+        RuleFor(x => x.LifecycleStatus)
+            .Must(v => AllowedLifecycle.Contains(v))
+            .WithMessage("LifecycleStatus doit être : InService, Maintenance, Decommissioning ou Retired.");
+
+        RuleFor(x => x.WarrantyUntil)
+            .GreaterThan(x => x.CommissionedAt)
+            .When(x => x.CommissionedAt.HasValue && x.WarrantyUntil.HasValue)
+            .WithMessage("La fin de garantie doit être postérieure à la mise en service.");
     }
 }
