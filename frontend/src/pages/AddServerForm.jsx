@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import client from "../api/client";
 
 const EMPTY = {
@@ -9,15 +9,38 @@ const EMPTY = {
   commissionedAt: "", warrantyUntil: "",
 };
 
-export default function AddServerForm({ onCreated }) {
+// Convertit une date ISO (avec heure) en "yyyy-MM-dd" pour input type=date
+const toDateInput = (d) => (d ? new Date(d).toISOString().slice(0, 10) : "");
+
+export default function AddServerForm({ onCreated, editing, onCancelEdit }) {
   const [open, setOpen] = useState(false);
   const [form, setForm] = useState(EMPTY);
   const [error, setError] = useState("");
   const [saving, setSaving] = useState(false);
 
+  const isEdit = !!editing;
+
+  // Quand un serveur à éditer arrive, pré-remplir et ouvrir
+  useEffect(() => {
+    if (editing) {
+      setForm({
+        ...EMPTY,
+        ...editing,
+        commissionedAt: toDateInput(editing.commissionedAt),
+        warrantyUntil: toDateInput(editing.warrantyUntil),
+      });
+      setOpen(true);
+    }
+  }, [editing]);
+
   const upd = (f) => (e) => {
     const v = e.target.type === "number" ? Number(e.target.value) : e.target.value;
     setForm((p) => ({ ...p, [f]: v }));
+  };
+
+  const close = () => {
+    setOpen(false); setError(""); setForm(EMPTY);
+    if (isEdit && onCancelEdit) onCancelEdit();
   };
 
   const submit = async () => {
@@ -28,12 +51,17 @@ export default function AddServerForm({ onCreated }) {
       warrantyUntil: form.warrantyUntil || null,
     };
     try {
-      await client.post("/api/servers", payload);
-      setForm(EMPTY); setOpen(false); onCreated();
+      if (isEdit) {
+        await client.put(`/api/servers/${editing.id}`, payload);
+      } else {
+        await client.post("/api/servers", payload);
+      }
+      close();
+      onCreated();
     } catch (err) {
       const msg = err.response?.data?.errors
         ? Object.values(err.response.data.errors).flat().join(" ")
-        : "Echec de la creation.";
+        : "Echec de l'enregistrement.";
       setError(msg);
     } finally { setSaving(false); }
   };
@@ -44,6 +72,8 @@ export default function AddServerForm({ onCreated }) {
 
   return (
     <div style={s.panel}>
+      <div style={s.formTitle}>{isEdit ? `Modifier ${editing.hostname}` : "Nouveau serveur"}</div>
+
       <div style={s.section}>IDENTITE TECHNIQUE</div>
       <div style={s.grid}>
         <F label="Hostname"><input style={s.in} value={form.hostname} onChange={upd("hostname")} /></F>
@@ -92,8 +122,10 @@ export default function AddServerForm({ onCreated }) {
 
       {error && <p style={s.error}>{error}</p>}
       <div style={s.actions}>
-        <button style={s.cancel} onClick={() => { setOpen(false); setError(""); }}>Annuler</button>
-        <button style={s.save} onClick={submit} disabled={saving}>{saving ? "Enregistrement..." : "Creer"}</button>
+        <button style={s.cancel} onClick={close}>Annuler</button>
+        <button style={s.save} onClick={submit} disabled={saving}>
+          {saving ? "Enregistrement..." : isEdit ? "Enregistrer" : "Creer"}
+        </button>
       </div>
     </div>
   );
@@ -106,6 +138,7 @@ function F({ label, children }) {
 const s = {
   addBtn: { padding: "10px 16px", background: "#38bdf8", color: "#0a0f1e", border: "none", borderRadius: 8, cursor: "pointer", fontSize: 14, fontWeight: 700 },
   panel: { background: "#0d1424", border: "1px solid #1e293b", borderRadius: 12, padding: 22 },
+  formTitle: { color: "#f1f5f9", fontSize: 16, fontWeight: 600, marginBottom: 16 },
   section: { fontFamily: "'JetBrains Mono', monospace", fontSize: 11, letterSpacing: 2, color: "#64748b", margin: "0 0 14px", paddingTop: 8 },
   grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: 12, marginBottom: 8 },
   label: { display: "block", fontSize: 12, color: "#94a3b8", marginBottom: 5 },

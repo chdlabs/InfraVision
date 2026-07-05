@@ -44,3 +44,8 @@ coverage/
 *.user
 
 .idea/
+
+# Secrets (ne jamais committer)
+backend/InfraVision.Api/appsettings.json
+kubernetes/infravision/01-secret.yaml
+kubernetes/postgres/postgres-secret.yaml

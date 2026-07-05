@@ -9,7 +9,7 @@ const LIFECYCLE_LABELS = {
 export default function ServerDetail({ server, onClose }) {
   if (!server) return null;
 
-  const zabbixUrl = "http://zabbix.local";
+  const zabbixUrl = `http://zabbix.local/zabbix.php?action=search&search=${encodeURIComponent(server.hostname)}`;
   const fmtDate = (d) => (d ? new Date(d).toLocaleDateString("fr-FR") : "-");
   const v = (x) => (x && x !== "" ? x : "-");
 
