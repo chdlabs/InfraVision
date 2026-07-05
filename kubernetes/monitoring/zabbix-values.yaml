@@ -1,0 +1,27 @@
+# PostgreSQL intégré au chart (base dédiée à Zabbix)
+postgresql:
+  enabled: true
+
+# Serveur Zabbix
+zabbixServer:
+  enabled: true
+  service:
+    type: ClusterIP
+
+# Frontend web (interface) — exposé ensuite via Ingress
+zabbixWeb:
+  enabled: true
+  service:
+    type: ClusterIP
+
+# Agent Zabbix (pour superviser)
+zabbixAgent:
+  enabled: true
+
+# Composants optionnels désactivés pour rester léger
+zabbixProxy:
+  enabled: false
+zabbixJavaGateway:
+  enabled: false
+zabbixWebService:
+  enabled: false
