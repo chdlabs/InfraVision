@@ -2,147 +2,129 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import client from "../api/client";
 import AddServerForm from "./AddServerForm";
+import ServerDetail from "./ServerDetail";
+
+const CRIT_COLORS = { Critical: "#f87171", High: "#fb923c", Medium: "#38bdf8", Low: "#94a3b8" };
 
 export default function Servers() {
   const [servers, setServers] = useState([]);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(true);
+  const [selected, setSelected] = useState(null);
   const navigate = useNavigate();
 
-  const loadServers = () => {
+  const load = () => {
     setLoading(true);
-    client
-      .get("/api/servers")
-      .then((res) => {
-        setServers(res.data);
-        setError("");
-      })
-      .catch(() => {
-        setError("Session expirée ou accès refusé.");
-        localStorage.removeItem("token");
-        navigate("/");
-      })
+    client.get("/api/servers")
+      .then((r) => { setServers(r.data); setError(""); })
+      .catch(() => { setError("Session expiree."); localStorage.removeItem("token"); navigate("/"); })
       .finally(() => setLoading(false));
   };
 
-  useEffect(loadServers, [navigate]);
+  useEffect(load, [navigate]);
 
-  const handleDelete = async (id, hostname) => {
-    if (!window.confirm(`Supprimer le serveur "${hostname}" ?`)) return;
+  const del = async (e, id, hostname) => {
+    e.stopPropagation();
+    if (!window.confirm(`Supprimer "${hostname}" ?`)) return;
     try {
       await client.delete(`/api/servers/${id}`);
-      setServers((prev) => prev.filter((s) => s.id !== id));
-    } catch {
-      setError("Échec de la suppression.");
-    }
+      setServers((p) => p.filter((s) => s.id !== id));
+    } catch { setError("Echec de la suppression."); }
   };
 
-  const onlineCount = servers.filter((s) => s.isOnline).length;
+  const online = servers.filter((s) => s.isOnline).length;
 
   return (
-    <div style={{ padding: 32 }}>
-      <h1 style={{ margin: "0 0 4px", color: "#0f172a" }}>Serveurs supervisés</h1>
-      <p style={{ margin: "0 0 24px", color: "#64748b", fontSize: 14 }}>
-        Inventaire de l'infrastructure
-      </p>
-
-      <div style={styles.statsRow}>
-        <Stat value={servers.length} label="Serveurs" color="#0f172a" />
-        <Stat value={onlineCount} label="En ligne" color="#16a34a" />
-        <Stat value={servers.length - onlineCount} label="Hors ligne" color="#dc2626" />
+    <div style={st.page}>
+      <div style={st.head}>
+        <div>
+          <div style={st.eyebrow}>INVENTORY</div>
+          <h1 style={st.title}>Parc de serveurs</h1>
+        </div>
       </div>
 
-      <div style={{ marginBottom: 16 }}>
-        <AddServerForm onCreated={loadServers} />
+      <div style={st.stats}>
+        <Stat value={loading ? "--" : servers.length} label="TOTAL" accent="#38bdf8" />
+        <Stat value={loading ? "--" : online} label="ONLINE" accent="#4ade80" />
+        <Stat value={loading ? "--" : servers.length - online} label="OFFLINE" accent="#f87171" />
       </div>
 
-      {error && <p style={styles.error}>{error}</p>}
+      <div style={{ marginBottom: 16 }}><AddServerForm onCreated={load} /></div>
+      {error && <p style={st.error}>{error}</p>}
 
-      <div style={styles.card}>
-        {loading ? (
-          <p style={{ color: "#94a3b8", padding: 16 }}>Chargement…</p>
-        ) : (
-          <table style={styles.table}>
+      <div style={st.tableWrap}>
+        {loading ? <p style={st.muted}>Chargement...</p> : (
+          <table style={st.table}>
             <thead>
               <tr>
-                <th style={styles.th}>État</th>
-                <th style={styles.th}>Hostname</th>
-                <th style={styles.th}>Adresse IP</th>
-                <th style={styles.th}>Système</th>
-                <th style={styles.th}>Environnement</th>
-                <th style={styles.th}></th>
+                <th style={st.th}>ETAT</th>
+                <th style={st.th}>HOSTNAME</th>
+                <th style={st.th}>IP</th>
+                <th style={st.th}>ROLE METIER</th>
+                <th style={st.th}>CRITICITE</th>
+                <th style={st.th}>PROPRIETAIRE</th>
+                <th style={st.th}></th>
               </tr>
             </thead>
             <tbody>
               {servers.map((s) => (
-                <tr key={s.id} style={styles.tr}>
-                  <td style={styles.td}>
-                    <span
-                      style={{
-                        ...styles.badge,
-                        background: s.isOnline ? "#dcfce7" : "#fee2e2",
-                        color: s.isOnline ? "#16a34a" : "#dc2626",
-                      }}
-                    >
-                      {s.isOnline ? "En ligne" : "Hors ligne"}
+                <tr key={s.id} style={st.tr} onClick={() => setSelected(s)} className="srv-row">
+                  <td style={st.td}>
+                    <span style={{ ...st.dot, background: s.isOnline ? "#4ade80" : "#f87171" }} />
+                  </td>
+                  <td style={{ ...st.td, fontWeight: 600, color: "#e2e8f0" }}>{s.hostname}</td>
+                  <td style={{ ...st.td, fontFamily: "'JetBrains Mono', monospace", color: "#94a3b8" }}>{s.ipAddress}</td>
+                  <td style={st.td}>{s.businessRole || "-"}</td>
+                  <td style={st.td}>
+                    <span style={{ ...st.crit, color: CRIT_COLORS[s.criticality] || "#94a3b8" }}>
+                      {s.criticality || "-"}
                     </span>
                   </td>
-                  <td style={{ ...styles.td, fontWeight: 600 }}>{s.hostname}</td>
-                  <td style={styles.td}>{s.ipAddress}</td>
-                  <td style={styles.td}>{s.operatingSystem} {s.osVersion}</td>
-                  <td style={styles.td}>{s.environment}</td>
-                  <td style={styles.td}>
-                    <button style={styles.deleteBtn} onClick={() => handleDelete(s.id, s.hostname)}>
-                      Supprimer
-                    </button>
+                  <td style={st.td}>{s.owner || "-"}</td>
+                  <td style={st.td}>
+                    <button style={st.delBtn} onClick={(e) => del(e, s.id, s.hostname)}>Suppr.</button>
                   </td>
                 </tr>
               ))}
               {servers.length === 0 && (
-                <tr>
-                  <td style={{ ...styles.td, textAlign: "center" }} colSpan={6}>
-                    Aucun serveur enregistré.
-                  </td>
-                </tr>
+                <tr><td style={{ ...st.td, textAlign: "center" }} colSpan={7}>Aucun serveur.</td></tr>
               )}
             </tbody>
           </table>
         )}
       </div>
+
+      <ServerDetail server={selected} onClose={() => setSelected(null)} />
+
+      <style>{`.srv-row:hover { background: #0f1729 !important; cursor: pointer; }`}</style>
     </div>
   );
 }
 
-function Stat({ value, label, color }) {
+function Stat({ value, label, accent }) {
   return (
-    <div style={styles.statCard}>
-      <div style={{ fontSize: 28, fontWeight: 700, color }}>{value}</div>
-      <div style={{ color: "#64748b", fontSize: 13 }}>{label}</div>
+    <div style={st.statCard}>
+      <div style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 30, fontWeight: 600, color: accent }}>{value}</div>
+      <div style={{ fontFamily: "'JetBrains Mono', monospace", fontSize: 11, letterSpacing: 2, color: "#64748b" }}>{label}</div>
     </div>
   );
 }
 
-const styles = {
-  statsRow: { display: "flex", gap: 16, marginBottom: 24 },
-  statCard: {
-    flex: 1, background: "#fff", borderRadius: 12, padding: "16px 20px",
-    boxShadow: "0 1px 3px rgba(0,0,0,0.08)",
-  },
-  card: { background: "#fff", borderRadius: 12, padding: 8, boxShadow: "0 1px 3px rgba(0,0,0,0.08)" },
+const st = {
+  page: { padding: 32, fontFamily: "'Inter', system-ui, sans-serif", minHeight: "100vh", boxSizing: "border-box" },
+  head: { marginBottom: 24 },
+  eyebrow: { fontFamily: "'JetBrains Mono', monospace", fontSize: 11, letterSpacing: 3, color: "#475569", marginBottom: 6 },
+  title: { margin: 0, color: "#f1f5f9", fontSize: 26, fontWeight: 600 },
+  stats: { display: "flex", gap: 14, marginBottom: 28 },
+  statCard: { background: "#0d1424", border: "1px solid #1e293b", borderRadius: 10, padding: "16px 22px", minWidth: 120 },
+  error: { color: "#f87171", background: "#1a0f14", border: "1px solid #7f1d1d", padding: "10px 14px", borderRadius: 8, marginBottom: 16 },
+  tableWrap: { background: "#0d1424", border: "1px solid #1e293b", borderRadius: 12, overflow: "hidden" },
   table: { width: "100%", borderCollapse: "collapse" },
-  th: {
-    textAlign: "left", padding: "12px 16px", fontSize: 12, textTransform: "uppercase",
-    color: "#94a3b8", borderBottom: "1px solid #e2e8f0",
-  },
-  tr: { borderBottom: "1px solid #f1f5f9" },
-  td: { padding: "12px 16px", color: "#334155", fontSize: 14 },
-  badge: { padding: "3px 10px", borderRadius: 999, fontSize: 12, fontWeight: 600 },
-  deleteBtn: {
-    padding: "6px 12px", border: "1px solid #fecaca", background: "#fff",
-    color: "#dc2626", borderRadius: 6, cursor: "pointer", fontSize: 13,
-  },
-  error: {
-    color: "#dc2626", background: "#fee2e2", padding: "10px 16px",
-    borderRadius: 8, marginBottom: 16,
-  },
+  th: { textAlign: "left", padding: "14px 18px", fontFamily: "'JetBrains Mono', monospace", fontSize: 10, letterSpacing: 2, color: "#475569", borderBottom: "1px solid #1e293b" },
+  tr: { borderBottom: "1px solid #141d30", transition: "background 0.12s" },
+  td: { padding: "14px 18px", color: "#cbd5e1", fontSize: 14 },
+  dot: { width: 9, height: 9, borderRadius: "50%", display: "inline-block", boxShadow: "0 0 6px currentColor" },
+  crit: { fontFamily: "'JetBrains Mono', monospace", fontSize: 12, fontWeight: 700 },
+  delBtn: { padding: "5px 12px", border: "1px solid #7f1d1d", background: "transparent", color: "#f87171", borderRadius: 6, cursor: "pointer", fontSize: 12 },
+  muted: { color: "#64748b", padding: 20 },
 };

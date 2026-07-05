@@ -13,7 +13,7 @@ export default function Login() {
     try {
       const res = await client.post("/api/auth/login", { username, password });
       localStorage.setItem("token", res.data.token);
-      navigate("/app/servers");
+      navigate("/app/dashboard");
     } catch {
       setError("Identifiants invalides.");
     }

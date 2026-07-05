@@ -1,0 +1,3068 @@
+<!DOCTYPE html>
+
+<html lang="en"> <head>
+  
+<meta charset="utf-8">
+  
+<title>404 - Page not found</title>
+  
+
+
+  <link rel="canonical" href="https://www.zabbix.com/page404" /> 
+  
+<meta property="og:title" content="404 - Page not found" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/page404" />
+
+        <link rel="alternate" hreflang="ru" href="/ru/page404" />
+            <link rel="alternate" hreflang="ja" href="/jp/page404" />
+            <link rel="alternate" hreflang="zh" href="/cn/page404" />
+            <link rel="alternate" hreflang="es" href="/la/page404" />
+            <link rel="alternate" hreflang="pt" href="/br/page404" />
+            <link rel="alternate" hreflang="de" href="/de/page404" />
+            <link rel="alternate" hreflang="fr" href="/fr/page404" />
+            <link rel="alternate" hreflang="cz" href="/cz/page404" />
+    <script>
+    window.PAGE_LANGUGAE = 'en';
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRBT62P');</script>
+<!-- End Google Tag Manager -->
+
+<link rel="icon" type="image/png" href="https://www.zabbix.com/favicon_48x48.png" sizes="48x48"/>
+
+<link href="https://assets.zabbix.com/dist/app.2798788b6c34632731c9.css" rel="stylesheet" type="text/css">
+
+<script src="https://assets.zabbix.com/dist/app.75d0a6d76763729a1de4.js"></script>
+
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#23262D">
+
+<link rel="apple-touch-icon" sizes="120x120" href="https://assets.zabbix.com/img/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://assets.zabbix.com/img/apple-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://assets.zabbix.com/img/apple-touch-icon-152x152-precomposed.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://assets.zabbix.com/img/apple-touch-icon-180x180-precomposed.png">
+
+
+  
+<style>
+.nav-group .no-link p {
+  color: #6b6c6f;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 1.5;
+}      
+.nav-group .no-link span {
+  line-height: 1.5;
+}
+.nav-group .rect.no-link {
+    margin-top: 4px;
+}
+</style>
+                  
+<style>     
+@media only screen and (min-width: 768px) {
+.subnav-grid {
+    padding: 24px 0 48px;
+}
+.subnav .rect {
+    margin-top: 8px;
+}
+.training-courses.list .rect {
+  margin-top: 8px;
+}
+.nav-group .rect>a>span {
+    text-transform: none;
+}
+.nav-group .rect>span {
+    color: #25282F;
+  	font-size: 16px;
+    text-transform: none;
+}
+.nav-group .rect>a {
+    background: 0 0;
+    padding: 4px 20px 5px 32px;
+}
+.nav-group li {
+    padding: 6px 0 0;
+  	margin-top: 12px;
+}
+.rect>a>span {
+    height: 70px;
+}
+.rect-login>a:before {
+	background-position: 5px -2px;
+}
+.nav-group [class*="rect-"] > a:before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px auto;
+  	background-image: url('https://assets.zabbix.com/img/icons/menu/20x20_sprite.svg');
+  	background-position-x: 0;
+}
+  
+	.nav-group .rect-industries > a:before {  background-position-y: 0px;}
+	.nav-group .rect-demo > a:before {  background-position-y: -380px;}
+	.nav-group .rect-cloud > a:before {  background-position-y: -120px;}
+	.nav-group .rect-features > a:before {  background-position-y: -20px;}
+	.nav-group .rect-integrations > a:before {  background-position-y: -280px;}
+	.nav-group .rect-documentation > a:before {  background-position-y: -160px;}
+	.nav-group .rect-mobile-app > a:before {  background-position-y: -1020px;}
+	.nav-group .rect-enterprise-appliance > a:before {  background-position-y: -420px;}
+	.nav-group .rect-case-studies > a:before {  background-position-y: -460px;}
+	.nav-group .rect-enterprise-monitoring > a:before {  background-position-y: -240px;}
+	.nav-group .rect-nis2 > a:before {  background-position-y: -400px;}
+	.nav-group .rect-support > a:before {  background-position-y: -260px;}
+	.nav-group .rect-msp > a:before {  background-position-y: -260px;}
+	.nav-group .rect-prof-services > a:before {  background-position-y: -660px;}
+	.nav-group .rect-login > a:before {  background-position-y: -420px;}
+	.nav-group .rect-training-overview > a:before {  background-position-y: -480px;}
+	.nav-group .rect-training-core > a:before {  background-position-y: -500px;}
+	.nav-group .rect-training-user > a:before {  background-position-y: -600px;}
+	.nav-group .rect-training-specialist > a:before {  background-position-y: -580px;}
+	.nav-group .rect-training-professional > a:before {  background-position-y: -560px;}
+	.nav-group .rect-training-expert > a:before {  background-position-y: -540px;}
+	.nav-group .rect-training-extra > a:before {  background-position-y: -620px;}
+	.nav-group .rect-training-upgrade > a:before {  background-position-y: -640px;}
+	.nav-group .rect-training-exams > a:before {  background-position-y: -520px;}
+	.nav-group .rect-training > a:before {  background-position-y: -420px;}
+	.nav-group .rect-training_x01_api > a:before {  background-position-y: -740px;}
+	.nav-group .rect-training_x02_preprocessing > a:before {  background-position-y: -680px;}
+	.nav-group .rect-training_x03_security > a:before {  background-position-y: -760px;}
+	.nav-group .rect-training_x04_problem_detection > a:before {  background-position-y: -700px;}
+	.nav-group .rect-training_x05_snmp > a:before {  background-position-y: -720px;}
+	.nav-group .rect-training_x06_database > a:before {  background-position-y: -780px;}
+	.nav-group .rect-training_x07_visualization > a:before {  background-position-y: -820px;}
+	.nav-group .rect-training-exam-apply > a:before {  background-position-y: -800px;}
+	.nav-group .rect-training-academy > a:before {  background-position-y: -840px;}
+	.nav-group .rect-services-consulting > a:before {  background-position-y: -860px;}
+	.nav-group .rect-services-turnkey > a:before {  background-position-y: -880px;}
+	.nav-group .rect-services-migration > a:before {  background-position-y: -920px;}
+	.nav-group .rect-services-upgrade > a:before {  background-position-y: -940px;}
+	.nav-group .rect-services-integration > a:before {  background-position-y: -960px;}
+	.nav-group .rect-services-template-building > a:before {  background-position-y: -980px;}
+	.nav-group .rect-services-development > a:before {  background-position-y: -1000px;}
+	.nav-group .rect-webinar > a:before {  background-position-y: -420px;}
+	.nav-group .rect-partners > a:before {  background-position-y: -340px;}
+	.nav-group .rect-become-partner > a:before {  background-position-y: -360px;}
+	.nav-group .rect-partners-map > a:before {  background-position-y: -200px;}
+	.nav-group .rect-distributors > a:before {  background-position-y: -220px;}
+	.nav-group .rect-community > a:before {  background-position-y: -340px;}
+	.nav-group .rect-events > a:before {  background-position-y: -300px;}
+	.nav-group .rect-newsletter > a:before {  background-position-y: -180px;}
+	.nav-group .rect-forum > a:before {  background-position-y: -100px;}
+	.nav-group .rect-blog > a:before {  background-position-y: -460px;}
+	.nav-group .rect-webinars > a:before {  background-position-y: -380px;}
+	.nav-group .rect-bugs_features > a:before {  background-position-y: -420px;}
+	.nav-group .rect-contribution > a:before {  background-position-y: -40px;}
+	.nav-group .rect-developers > a:before {  background-position-y: -140px;}
+	.nav-group .rect-education > a:before {  background-position-y: -480px;}
+	.nav-group .rect-company > a:before {  background-position-y: -80px;}
+	.nav-group .rect-pr > a:before {  background-position-y: -380px;}
+	.nav-group .rect-customers > a:before {  background-position-y: -220px;}
+	.nav-group .rect-privacy > a:before {  background-position-y: -400px;}
+	.nav-group .rect-trademark > a:before {  background-position-y: -320px;}
+	.nav-group .rect-strategic-partnership > a:before {  background-position-y: -420px;}
+	.nav-group .rect-contact > a:before {  background-position-y: -440px;}
+	.nav-group .rect-career > a:before {  background-position-y: -60px;}
+
+.nav-group .menu-tag-red, .footer .menu-tag-red  {
+  color: #FFF;
+  font-size: 14px;
+  font-family: GothamProRegular, sans-serif;
+  line-height: 24px;
+  border-radius: 4px;
+  background: #D40000;
+  padding: 2px 6px;
+}
+.footer .menu-tag-red  {
+  font-size: 12px;
+  line-height: 20px;
+}
+.nav-group dd.space-left {
+  padding-left: 32px;
+}
+
+.nav-group .rect.hoverable:hover {
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 16px 0 -12px;
+  padding: 4px 04px 12px;
+  position: relative;
+  display: inline-block;
+}
+.nav-group .rect.hoverable, .nav-group .rect.hoverable:hover {
+  margin: 0 16px 0 -12px;
+  padding: 4px 0 4px 12px;
+}
+.nav-group .rect.hoverable.active::after,
+.nav-group .rect.hoverable:hover::after
+  {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;                   
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #ffffff; 
+}
+
+.nav-group .rect.hoverable.active  {
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 16px 0 -12px;
+  padding: 4px 0 4px 12px;
+  position: relative;
+  display: inline-block;
+}
+.nav-group.active {
+ background: #fff;
+  border-radius: 4px;
+  margin: -4px 0 0 -12px;
+  padding: 4px 4px 4px 12px;
+}
+
+.nav-ext .community-dropdown {
+  position: relative;
+}
+
+.nav-ext .community-dropdown > a,
+.nav-ext .community-dropdown > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-ext .community-dropdown > a:after,
+.nav-ext .community-dropdown > span:after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+  background: url('https://assets.zabbix.com/img/icons.png') no-repeat 0 -144px;
+  background-image: none, url('https://assets.zabbix.com/img/icons.svg');
+  background-size: 16px auto;
+}
+
+.nav-ext .community-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 0;
+  min-width: 224px;
+  margin: 0;
+  padding: 10px 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease, visibility 0.18s ease;
+  z-index: 1000;
+}
+
+.nav-ext .community-dropdown.is-open .community-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+.nav-ext .community-dropdown-menu li {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-ext .community-dropdown-menu a {
+  display: block;
+  padding: 12px 16px;
+  color: #25282F;
+  text-decoration: none;
+  white-space: nowrap;
+  text-align: left;
+  font-size: 16px;
+  transition: background-color 0.28s ease, color 0.28s ease;
+}
+
+.nav-ext .community-dropdown-menu a:hover,
+.nav-ext .community-dropdown-menu a:focus {
+  background: #f3f3f3;
+  color: #0275b8;
+}
+}
+@media only screen and (max-width: 768px) {
+  .menu-tag-red {
+    display: none;
+  }
+}
+</style>
+
+</head>
+
+<body class="with-header">
+  
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRBT62P"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  
+<header id="header">
+
+  	<div class="header-language" style="display: none">
+    <div class="header-language__bar">
+        <div class="w container">
+            <form id="language" action="./">
+                <div id="language_title" class="header-language__title">Select a default site language</div>
+                <dl class="language-select">
+                    <dt class="language-select__title">
+                        <a id="language_toggle" class="js_autohide inherit language-select__anchor" href="#select" data-selector="#language_options">
+                          <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flag_en.svg" alt="en">
+                          English
+                        </a>
+                    </dt>
+                    <dd id="language_options" class="language-select__dropdown hidden">
+                        <ul class="language-select__list">
+                            <li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="jp">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flag_jp.svg" alt="jp">
+                                    日本語
+                                </label>
+                            </li>
+                            <li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="cn">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flag_cn.svg" alt="cn">
+                                    中文
+                                </label>
+                            </li>
+                            <li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="en">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flag_en.svg" alt="en">
+                                    English
+                                </label>
+                            </li>
+                            <li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="ru">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flag_ru.svg" alt="ru">
+                                    Русский
+                                </label>
+                            </li>
+                          	<li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="la">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flag_es.svg" alt="la">
+									Español&nbsp;(Latinoamérica)
+                                </label>
+                            </li>
+                          	<li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="br">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flag_br.svg" alt="br">
+                                    Português&nbsp;(América&nbsp;Latina)
+                                </label>
+                            </li>
+                          
+                          	<li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="de">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flags/21x15/svg/DE.svg" alt="de">
+                                    Deutsch
+                                </label>
+                            </li>
+                          	<li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="fr">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flags/21x15/svg/FR.svg" alt="fr">
+                                    Français
+                                </label>
+                            </li>
+                          	<li class="language-select__item">
+                                <label class="language-select__label">
+                                    <input class="language-select__input" type="radio" name="lang" value="cz">
+                                    <img class="language-select__icon" src="https://assets.zabbix.com/img/icons/flags/21x15/svg/CZ.svg" alt="cz">
+                                    Čeština
+                                </label>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <button type="button" id="language_button" class="button button-red button-s">Confirm</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        (function(){
+            var translates = {
+                en: {
+                    title: 'Select a default site language',
+                    button: 'Confirm'
+                },
+                ru: {
+                    title: 'Выберите язык сайта по-умолчанию',
+                    button: 'Подтвердить'
+                },
+                jp: {
+                    title: 'デフォルトのサイト言語を選択してください',
+                    button: '確認する'
+                },
+                cn: {
+                    title: '选择默认的网站语言',
+                    button: '确认'
+                },
+                la: {
+                    title: 'Seleccione un idioma predeterminado del sitio',
+                    button: 'Confirme'
+                },
+                br: {
+                    title: 'Selecione um idioma padrão do site',
+                    button: 'Confirme'
+                },
+                de: {
+                    title: 'Select a default site language',
+                    button: 'Confirm'
+                },
+                fr: {
+                    title: 'Select a default site language',
+                    button: 'Confirm'
+                },
+                cz: {
+                    title: 'Select a default site language',
+                    button: 'Confirm'
+                },
+            };
+            var $toggle          = $('#language_toggle'),
+                $dropdown        = $('#language_options'),
+                $language_title  = $('#language_title'),
+                $language_button = $('#language_button')
+
+            $('#language_options input').click(function(event){
+                var $input = $(this);
+
+                $toggle.html($input.parent().text());
+                $toggle.prepend($input.next('img').clone());
+                $toggle.removeClass('active js_autohide');
+                $dropdown.addClass('hidden');
+                $language_title.text(translates[this.value].title);
+                $language_button.text(translates[this.value].button);
+            });
+            $toggle.click(function(event){
+                event.preventDefault();
+
+                if ($toggle.hasClass('active')) {
+                    $toggle.removeClass('active js_autohide');
+                    $dropdown.addClass('hidden');
+                } else {
+                    $toggle.addClass('active js_autohide');
+                    $dropdown.removeClass('hidden');
+                }
+            });
+        })();
+    </script>
+</div>
+
+	<div class="header-main">
+		<a class="logo" href="/index">Zabbix</a>
+				<a class="js_nav action action-l i i-menu i-only hidden" href="#navigation"></a>
+	</div>
+
+	<div id="navigation" class="header-nav hidden">
+		<div class="w">
+			<nav class="nav-main">
+				<ul class="nav-list">
+                  
+<li class="nav-item hoverable">
+						<a class="js_nav_anchor nav-anchor with-subnav " href="/features">
+							<span>Product</span>
+						</a>                      
+						<div class="subnav hidden">
+							<div class="w">
+								<div class="grid subnav-grid">
+                                  
+                                  										                                  	                                  
+									<div class="span span-5 tablet-span-6"> 
+										<dl class="nav-group"> 
+											<div class="rect no-link mobile-hidden">
+                                                  <span>Explore Zabbix</span>
+                                              	  <p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                        	</div>
+											<div class="rect rect-demo">
+                                            	<a href="/demo" class="red">
+                                                  <span>Zabbix Overview and Demo</span>
+                                                  <p>Get a quick technical overview of Zabbix and watch a demo</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-cloud">
+                                            	<a href="/cloud" class="red">
+                                                  <span>Zabbix Cloud</span></span>
+                                                  <p>Deploy a Zabbix instance with only a few clicks</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-mobile-app">
+                                            	<a href="/mobile_app" class="red">
+                                                  <span>Zabbix Mobile App&nbsp;<span class="menu-tag-red">Coming soon</span></span>
+                                                  <p>Never miss an alert thanks to observability that travels with you</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-features">
+                                            	<a href="/features" class="red">
+                                                  <span>Features</span>
+                                                  <p>Explore how Zabbix collects, processes, and visualizes data</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-integrations">
+                                            	<a href="/integrations" class="red">
+                                                  <span>Integrations</span>
+                                                  <p>See the list of monitoring templates and integrations</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-documentation">
+                                            	<a href="/manuals" class="red">
+                                                  <span>Documentation</span>
+                                                  <p>Official manuals on how to install, configure, and run Zabbix</p>
+                                              	</a>
+                                        	</div>
+										</dl>
+									</div>
+
+									<div class="span span-3 tablet-span-6">
+										<dl class="nav-group">
+                                          	<div class="rect no-link mobile-hidden">
+                                                  <span>Monitor anything</span>
+                                                                                                	  <p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                        	</div>
+
+                                                  <dd>
+                                                      <ul>
+                                                          <li><a href="/network_monitoring">Network</a></li>
+                                                          <li><a href="/server_monitoring">Server</a></li>
+                                                          <li><a href="/cloud_monitoring">Cloud</a></li>
+                                                          <li><a href="/container_monitoring">Container</a></li>
+                                                          <li><a href="/vmware_monitoring">VMware</a></li>
+                                                          <li><a href="/windows_monitoring">Windows</a></li>
+                                                          <li><a href="/iot_monitoring">IoT</a></li>
+                                                          <li><a href="/log_monitoring">Log</a></li>
+                                                          <li><a href="/integrations?cat=applications">Applications</a></li>
+                                                          <li><a href="/integrations?cat=services">Services</a></li>
+                                                          <li><a href="/integrations?cat=databases">Database</a></li>
+                                                          <li><a href="/capabilities">All Capabilities</a></li>
+                                                      </ul>
+                                                  </dd>
+
+										</dl>
+									</div>
+									<div class="span span-3 tablet-span-4">
+										<dl class="nav-group">
+                                          	<div class="rect no-link mobile-hidden">
+                                                  <span>About product</span>
+                                                                                                	  <p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                        	</div>
+											<dd>
+												<ul>
+                                                  														<li><a href="/whats_new_7_4">What's New in Zabbix 7.4</a></li>
+													<li><a href="/release_notes">Release Notes</a></li>
+																																							<li><a href="/life_cycle_and_release_policy">Lifecycle and Release Policy</a></li>
+                                                  	<li><a href="/zabbix_security_policy">Security Policy</a></li>
+                                                  	<li><a href="/security_advisories">Zabbix Security Advisories</a></li>
+													<li><a href="/roadmap">Roadmap</a></li>
+																										<li><a href="/license">License</a></li>
+                                                  	<li><a href="https://support.zabbix.com/secure/Dashboard.jspa">Zabbix Feedback and Enhancements</a></li>
+												</ul>
+											</dd>
+										</dl>
+									</div>
+                                    <div class="span span-5 tablet-hidden mobile-hidden">
+                                          <style>
+.menu-banner {
+  border-radius: 4px;
+  background: #FFF;
+  margin-top: 16px;
+  padding: 24px;
+  font-size: 16px;
+}
+.menu-banner h4 {
+  font-size: 16px;
+}
+.menu-banner img {
+  margin: 24px 0;
+}
+</style>
+
+<div>
+
+
+
+    
+        
+        
+        
+    		  <div> <!-- all countries: show::  ignore:: -->
+					
+			<div class="menu-banner text">
+
+													              	              		<h4 class="b">Zabbix 7.4 - Less work. More depth.</h4>
+Upgrade to the latest version.
+				              
+      			      					              			      			              
+				<a href="/whats_new_7_4">
+				  <img width="330" src="https://assets.zabbix.com/img/banners//7.4/zabbix_7_4_design-concept_menu.svg" alt="What’s new →">
+				</a>
+								  <a href="/whats_new_7_4">What’s new →</a>
+							</div>
+		  </div> 
+        
+    
+</div>
+                                    </div> 
+								</div>
+								<ul class="grid subbar hidden desktop-hidden mobile-hidden">
+									<li class="span span-8"><a href="/download"><span class="s s-download">Download Zabbix</span></a></li>
+									<li class="span span-8"><a href="/features">Take a tour</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+                  
+                  
+                  
+<li class="nav-item hoverable">
+						<a class="js_nav_anchor nav-anchor with-subnav " href="/solutions">
+							<span>Solutions</span>
+						</a>
+						<div class="subnav hidden">
+							<div class="w">
+								<div class="grid subnav-grid">
+									<div class="span span-5 tablet-span-8"> 
+										<dl class="nav-group"> 
+											<div class="rect rect-case-studies">
+                                            	<a href="/case_studies" class="red">
+                                                  <span>Case Studies</span>
+                                                  <p>Inspiring real-life cases of
+Zabbix implementation</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-enterprise-monitoring">
+                                            	<a href="/enterprise_monitoring" class="red">
+                                                  <span>For Enterprises</span>
+                                                  <p>Scalable, secure monitoring built for enterprise needs</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-nis2">
+                                            	<a href="/nis2" class="red">
+                                                  <span>NIS2 Compliance</span>
+                                                  <p>How Zabbix helps meet the latest security standards</p>
+                                              	</a>
+                                        	</div>
+										</dl>
+									</div>
+									
+									<div class="span span-5 tablet-span-8">
+										<dl class="nav-group">
+
+											<div class="rect no-link mobile-hidden">
+                                                <span>Solutions for Your Industry</span>
+                                                <p>Zabbix helps customers across multiple verticals provide consistent, quality service</p>
+                                        	</div>
+                                          
+                                            <dd class="">
+                                                <ul>
+                                                    <li><a href="/banking_and_finance">Banking and Finance</a></li>
+                                                    <li><a href="/energy">Energy and Chemicals</a></li>
+                                                    <li><a href="/healthcare_and_medicine">Healthcare and Medicine</a></li>
+                                                    <li><a href="/broadcasting_and_telecom">IT network performace and security</a></li>
+                                                  	<li><a href="/it">Information Technology</a></li>
+                                                    <li><a href="/retail">Retail</a></li>
+                                                    <li><a href="/aerospace">Aerospace</a></li>
+                                                    <li><a href="/education">Education</a></li>
+                                                    <li><a href="/government">Government</a></li>
+                                                                                                      	<li><a href="/transportation">Logistics and Transportation</a></li>
+                                                  	<li><a href="/solutions">All Industries</a></li>
+                                                </ul>
+                                            </dd>
+										</dl>
+									</div>
+									<div class="span span-1 tablet-span-1">
+                                  	</div>
+                                  	                                      <div class="span span-5 tablet-hidden mobile-hidden">
+                                        	<style>
+.menu-banner {
+  border-radius: 4px;
+  background: #FFF;
+  margin-top: 16px;
+  padding: 24px;
+  font-size: 16px;
+}
+.menu-banner h4 {
+  font-size: 16px;
+}
+.menu-banner img {
+  margin: 24px 0;
+}
+</style>
+
+<div>
+
+
+
+    
+        
+        
+        
+        
+    		  <div> <!-- all countries: show::  ignore:: -->
+					
+			<div class="menu-banner text">
+
+													              	              		<h4 class="b">
+Explore Zabbix Cloud with a free trial
+</h4>
+Deploy Zabbix in 60 seconds!
+				              
+      			      					              			      			              
+				<a href="/cloud">
+				  <img width="330" src="https://assets.zabbix.com/img/banners/cloud_menu_320x185.png" alt="Find out more →">
+				</a>
+								  <a href="/cloud">Find out more →</a>
+							</div>
+		  </div> 
+    
+</div>
+                                      </div> 
+                                  	                                  
+								</div>
+								<ul class="grid subbar hidden desktop-hidden mobile-hidden">
+									<li class="span span-8"><a href="/download"><span class="s s-download">Download Zabbix</span></a></li>
+									<li class="span span-8"><a href="/features">Take a tour</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+                  
+<li class="nav-item hoverable">
+						<a class="nav-anchor " href="/subscriptions">
+							<span>Pricing</span>
+						</a>
+					</li>
+                  
+                  
+<li class="nav-item hoverable">
+						<a class="js_nav_anchor nav-anchor with-subnav " href="/services">
+							<span>Services</span>
+						</a>
+						<div class="subnav hidden">
+							<div class="w">
+								<div class="grid subnav-grid">
+                                  
+
+									<div id="services-1" class="span span-4 tablet-span-8">
+										<dl class="nav-group">
+                                          
+                                          	<div class="rect rect-features" style="margin-top: 9px;">
+                                                  <span style="color: ; font-family: GothamProMedium;">Professional Services</span>
+                                                  <p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                        	</div>
+                                          
+                                        	<div class="rect rect-prof-services">
+                                            	<a href="/services" class="red">
+                                                  <span>Overview</span>
+                                                  <p>A wide range of professional services designed to fit your unique requirements</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-services-turnkey">
+                                            	<a href="/turn_key_solution" class="red">
+                                                  <span>Implementation</span>
+                                                  <p>Your implementation partner, from first setup to full observability</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-services-integration">
+                                            	<a href="/integration_services" class="red">
+                                                  <span>Integration</span>
+                                                  <p>Custom Zabbix integrations, engineered to fit seamlessly into your tech stack</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-services-migration">
+                                            	<a href="/migration_services" class="red">
+                                                  <span>Migration</span>
+                                                  <p>Migrate and standardize on Zabbix without the risk</p>
+                                              	</a>
+                                        	</div>
+
+										</dl>
+									</div>
+                                  	
+									<div id="services-2" class="span span-4 tablet-span-8">
+										<dl class="nav-group">
+
+                                          	<div class="rect rect-features" style="margin-top: 9px;">
+                                                  <span style="color: ; font-family: GothamProMedium;">&nbsp;</span>
+                                                  <p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                        	</div>
+
+                                        	<div class="rect rect-services-upgrade">
+                                            	<a href="/upgrade_services" class="red">
+                                                  <span>Upgrade</span>
+                                                  <p>Stay current and secure with a seamless Zabbix upgrade</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-services-template-building">
+                                            	<a href="/template_building_services" class="red">
+                                                  <span>Template Building</span>
+                                                  <p>Get precise, production-ready configurations built exactly for your infrastructure</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-services-development">
+                                            	<a href="/development_services" class="red">
+                                                  <span>Development</span>
+                                                  <p>Extend Zabbix to fit your exact business needs</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-services-consulting">
+                                            	<a href="/consulting" class="red">
+                                                  <span>Consulting</span>
+                                                  <p>Get the most out of your monitoring deployment with expert guidance from the people who built it</p>
+                                              	</a>
+                                        	</div>
+
+										</dl>
+									</div>
+                                  <div class="span span-1"></div>
+                                  
+                                  	<style>                                 
+@media only screen and (min-width: 768px) {
+    .subnav-grid #services-1.span, .subnav-grid #training-1.span {
+      	padding-right: 0;
+    }
+	.subnav-grid #services-2.span, .subnav-grid #training-2.span {
+      	padding-left: 0;
+    }
+}
+</style>
+									<div id="training-1" class="span span-4 tablet-span-4"> 
+										<dl class="nav-group">
+                                          
+                                          	<div class="rect rect-features" style="margin-top: 9px;">
+                                                  <span style=" font-family: GothamProMedium;">Training</span>
+                                                  <p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                        	</div>
+                                          
+                                            <div class="rect rect-training-overview">
+                                                <a href="/training" class="red">
+                                                  <span>Training Overview</span>
+                                                  <p>Master Zabbix under the guidance of the world’s best Zabbix trainers</p>
+                                                </a>
+                                            </div>
+                                            <dd class="space-left">
+                                                <ul>
+                                                    <li><a href="/training?full_list=true#training_schedule">Schedule</a></li>
+                                                                                                                                                                                                                                                                        <li><a href="/training#faq">Training FAQ</a></li>
+                                                    <li><a href="/certificate_check">Certificate Check</a></li>
+                                                    <li><a href="/forms/training_application_form">Training Application Form</a></li>
+                                                </ul>
+                                            </dd>
+                                      	</dl>
+                                      	<dl class="nav-group">
+                                            <div class="rect rect-training-academy">
+                                                <a href="https://academy.zabbix.com" class="red" target="_blank">
+                                                  <span>Zabbix Academy</span>
+                                                  <p>Your pace. Your schedule. Learn Zabbix your way.</p>
+                                                </a>
+                                            </div>
+										</dl>
+									</div>
+
+									<div id="training-2" class="span span-3 tablet-span-3 training-groups" >
+                                      <dl class="nav-group">
+                                        
+                                        <div class="rect rect-features" style="margin-top: 9px;">
+                                              <span style="color: #6b6c6f; font-family: GothamProMedium;">&nbsp;</span>
+                                              <p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                        </div>
+
+                                        <div class="rect  rect-training-core active">
+                                          <a href="/training_courses_core" class="red">
+                                            <span>Core Courses</span>
+                                                                                      </a>
+                                        </div>
+                                        <div class="rect  rect-training-upgrade ">
+                                          <a href="/training_courses_upgrade" class="red">
+                                            <span>Upgrade Courses</span>
+                                                                                      </a>
+                                        </div>
+                                        <div class="rect  rect-training-extra ">
+                                          <a href="/training_courses_extra" class="red">
+                                            <span>Extra Courses</span>
+                                                                                      </a>
+                                        </div>
+                                        <div class="rect  rect-training-exams">
+                                          <a href="/exams" class="red">
+                                            <span>Exams</span>
+                                                                                      </a>
+                                        </div>
+                                      </dl>
+                                    </div>
+                                  
+
+								</div>
+								<ul class="grid subbar hidden desktop-hidden mobile-hidden">
+									<li class="span span-8"><a href="/download"><span class="s s-download">Download Zabbix</span></a></li>
+									<li class="span span-8"><a href="/features">Take a tour</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+
+<li class="nav-item hoverable">
+						<a class="js_nav_anchor nav-anchor with-subnav " href="/partners">
+							<span>Partners</span>
+						</a>
+						<div class="subnav hidden">
+							<div class="w">
+								<div class="grid subnav-grid">
+									<div class="span span-5 tablet-span-8"> 
+										<dl class="nav-group"> 
+                                        <div class="rect rect-partners">
+                                                                                            <a href="/partners" class="red"><span>Partner Program</span><p>Our partner network provides localized support & training worldwide</p></a>
+                                                                                    </div>
+                                        <div class="rect rect-become-partner">
+                                            <a href="/partnership" class="red">
+                                              <span>Become a Partner</span>
+                                              <p>Join the network for global recognition and support</p>
+                                            </a>
+                                        </div>
+                                        <dd class="space-left">
+                                            <ul>
+                                                <li><a href="/forms/become_partner">Partner Application Form</a></li>
+                                            </ul>
+                                        </dd> 
+										</dl>
+                                      
+									</div>
+                                  	<div class="span span-1 tablet-hidden">
+                                  	</div>
+									<div class="span span-5 tablet-span-8"> 
+										<dl class="nav-group"> 
+                                        
+                                                                                  	<div class="rect rect-partners-map">
+                                            	<a href="/partners#map_of_partners" class="red"><span>Map of Zabbix Partners</span><p>Choose the Zabbix partner closest to your location</p></a>
+                                          	</div>
+                                                                                  
+                                        <dd class="space-left">
+                                            <ul>
+                                                <li><a href="/partners#partners_list">Find a partner</a></li>
+                                              	<li class="mobile-hidden"></li>
+                                            </ul>
+                                        </dd> 
+                                          
+                                        <div class="rect rect-distributors">
+                                            <a href="/distributors" class="red">
+                                              <span>Distributors</span>
+                                              <p>Build bridges between Zabbix users, local partners, and Zabbix itself</p>
+                                            </a>
+                                        </div>
+										</dl>
+									</div>
+                                    <div class="span span-5 tablet-hidden mobile-hidden">
+                                       	<style>
+.menu-banner {
+  border-radius: 4px;
+  background: #FFF;
+  margin-top: 16px;
+  padding: 24px;
+  font-size: 16px;
+}
+.menu-banner h4 {
+  font-size: 16px;
+}
+.menu-banner img {
+  margin: 24px 0;
+}
+</style>
+
+<div>
+
+
+
+    
+        
+        
+    		  <div> <!-- all countries: show::  ignore:: -->
+					
+			<div class="menu-banner text">
+
+													              	              		<h4 class="b">
+Become a Zabbix Partner
+</h4>
+Extend our global network
+				              
+      			      					              			      			              
+				<a href="/partnership">
+				  <img width="330" src="https://assets.zabbix.com/img/banners/og/partners2_menu_320x185.jpg" alt="Apply →">
+				</a>
+								  <a href="/partnership">Apply →</a>
+							</div>
+		  </div> 
+        
+        
+    
+</div>
+                                  	</div>
+								</div>
+								<ul class="grid subbar hidden desktop-hidden mobile-hidden">
+									<li class="span span-8"><a href="/download"><span class="s s-download">Download Zabbix</span></a></li>
+									<li class="span span-8"><a href="/features">Take a tour</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+
+<li class="nav-item hoverable desktop-hidden tablet-hidden">
+						<a class="js_nav_anchor nav-anchor with-subnav " href="/community">
+							<span>Community</span>
+						</a>
+						<div class="subnav hidden">
+							<div class="w">
+								<div class="grid subnav-grid">
+
+									<div class="span span-5 tablet-span-8"> 
+										<dl class="nav-group"> 
+                                            <div class="rect no-link mobile-hidden">
+                                                  <span>Community Engagement</span>
+                                            </div>
+											<div class="rect rect-forum">
+                                            	<a href="https://www.zabbix.com/forum" class="red">
+                                                  <span>Forum</span>
+                                                  <p>Catch up with hundreds of active users, get advice, and help others</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-contribution">
+                                            	<a href="/contribute" class="red">
+                                                  <span>Contribute to Zabbix</span>
+                                                  <p>Engage with Zabbix - submit plugins, localize content, and more</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-developers">
+                                            	<a href="/developers" class="red">
+                                                  <span>Developers</span>
+                                                  <p>Find out how you can contribute to or collaborate with Zabbix</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-education">
+                                            	<a href="/educational_movement" class="red">
+                                                  <span>Educational Movement</span>
+                                                  <p>Support for students, professors, and universities</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-community">
+                                            	<a href="/community" class="red">
+                                                  <span>Community Area</span>
+                                                  <p>Zabbix social media channels, discussion forums, and more</p>
+                                              	</a>
+                                        	</div>
+										</dl>
+									</div>
+
+									<div class="span span-5 tablet-span-8"> 
+										<dl class="nav-group">
+											<div class="rect no-link mobile-hidden">
+                                                  <span>Learning & Updates</span>
+                                            </div>
+											<div class="rect rect-events">
+                                            	<a href="/events" class="red">
+                                                  <span>Events&nbsp;<span class="menu-tag-red">Meet us</span></span>
+                                                  <p>Join Zabbix events in multiple languages and regions</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-webinars">
+                                            	<a href="/webinars" class="red">
+                                                  <span>Webinars</span>
+                                                  <p>Free tips and tricks for effective monitoring, and much more</p>
+                                              	</a>
+                                          	</div>
+											<div class="rect rect-blog">
+                                            	<a href="https://blog.zabbix.com/" class="red">
+                                                  <span>Blog</span>
+                                                  <p>Read technical how-tos, case studies, and new feature overviews</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-newsletter">
+                                            	<a href="/subscribe" class="red">
+                                                  <span>Newsletter</span>
+                                                  <p>Subscribe to the Zabbix newsletter for the latest updates</p>
+                                              	</a>
+                                        	</div>
+
+																					</dl>
+									</div>
+                                  	<div class="span span-1 tablet-hidden">
+                                  	</div>
+                                    <div class="span span-5 tablet-hidden mobile-hidden">
+                                        <style>
+.menu-banner {
+  border-radius: 4px;
+  background: #FFF;
+  margin-top: 16px;
+  padding: 24px;
+  font-size: 16px;
+}
+.menu-banner h4 {
+  font-size: 16px;
+}
+.menu-banner img {
+  margin: 24px 0;
+}
+</style>
+
+<div>
+
+
+
+    
+        
+    		  <div> <!-- all countries: show::  ignore:: -->
+					
+			<div class="menu-banner text">
+
+													              	              		<h4 class="b">
+Zabbix Academy is launched!
+</h4>
+Your pace. Your schedule.
+				              
+      			      					              			      			              
+				<a href="https://academy.zabbix.com">
+				  <img width="330" src="https://assets.zabbix.com/img/banners/academy_banner_320x185.png" alt="Find out more →">
+				</a>
+								  <a href="https://academy.zabbix.com">Find out more →</a>
+							</div>
+		  </div> 
+        
+        
+        
+    
+</div>
+                                    </div>
+								</div>
+								<ul class="grid subbar hidden desktop-hidden mobile-hidden">
+									<li class="span span-8"><a href="/download"><span class="s s-download">Download Zabbix</span></a></li>
+									<li class="span span-8"><a href="/features">Take a tour</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+                  
+<li class="nav-item hoverable">
+						<a class="js_nav_anchor nav-anchor with-subnav " href="/about">
+							<span>Company</span>
+						</a>
+						<div class="subnav hidden">
+							<div class="w">
+								<div class="grid subnav-grid">
+
+									<div class="span span-4 tablet-span-8"> 
+										<dl class="nav-group"> 
+                                            <div class="rect no-link mobile-hidden">
+                                                <span>Meet Zabbix</span>
+                                              	<p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                            </div>
+                                          
+											<div class="rect rect-events">
+                                            	<a href="/events" class="red">
+                                                  <span>Events</span>
+                                                  <p>Join Zabbix events in multiple languages and regions</p>
+                                              	</a>
+                                        	</div>
+                                          	<div class="rect rect-webinars">
+                                            	<a href="/webinars" class="red">
+                                                  <span>Webinars</span>
+                                                  <p>Free tips and tricks for effective monitoring, and much more</p>
+                                              	</a>
+                                          	</div>
+										</dl>
+									</div>
+                                  	<div class="span span-1 tablet-hidden"></div>
+									<div class="span span-5 tablet-span-8">
+										<dl class="nav-group">
+                                            <div class="rect no-link mobile-hidden">
+                                                <span>Our Company</span>
+                                              	<p class="border-bottom mobile-hidden" style="margin-bottom: 16px;"></p>
+                                            </div>
+											<div class="rect rect-company">
+                                            	<a href="/about" class="red">
+                                                  <span>About Us</span>
+                                                  <p>Meet our company and management team</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-career">
+                                            	<a href="/career" class="red">
+                                                  <span>Join Us&nbsp;<span class="menu-tag-red">We’re hiring</span></span>
+                                                  <p>Start your career in one of our Zabbix offices worldwide</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-customers">
+                                            	<a href="/users" class="red">
+                                                  <span>Customers and Users</span>
+                                                  <p>Get to know some of Zabbix's customers</p>
+                                              	</a>
+                                        	</div>
+											<div class="rect rect-contact">
+                                            	<a href="/contact" class="red">
+                                                  <span>Contact Us</span>
+                                                  <p>Get in contact with Zabbix offices worldwide</p>
+                                              	</a>
+                                        	</div>
+										</dl>
+									</div>
+                                  	<div class="span span-1 tablet-hidden"></div>
+                                    <div class="span span-5 tablet-hidden mobile-hidden">
+                                       	<style>
+.menu-banner {
+  border-radius: 4px;
+  background: #FFF;
+  margin-top: 16px;
+  padding: 24px;
+  font-size: 16px;
+}
+.menu-banner h4 {
+  font-size: 16px;
+}
+.menu-banner img {
+  margin: 24px 0;
+}
+</style>
+
+<div>
+
+
+
+    
+    		  <div> <!-- all countries: show::  ignore:: -->
+					
+			<div class="menu-banner text">
+
+													              	              		<h4 class="b">
+Join our global team!
+</h4>
+Shape the future of observability
+				              
+      			      					              			      			              
+				<a href="/career">
+				  <img width="330" src="https://assets.zabbix.com/img/banners/zabbix_team_320x185.png" alt="Explore opportunities →">
+				</a>
+								  <a href="/career">Explore opportunities →</a>
+							</div>
+		  </div> 
+        
+        
+        
+        
+    
+</div>
+                                  	</div> 
+
+								</div>
+								<ul class="grid subbar hidden desktop-hidden mobile-hidden">
+									<li class="span span-8"><a href="/download"><span class="s s-download">Download Zabbix</span></a></li>
+									<li class="span span-8"><a href="/features">Take a tour</a></li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</nav>
+
+<nav class="nav-bar">
+				<div class="w container">
+					<a class="button button-green button-tour" href="/zabbix_cloud">Get Zabbix</a>
+                  	                  
+					<ul class="nav-ext mobile-hidden">
+                                    
+	
+
+
+
+	<!-- Topline banners start -->
+  	
+        
+			                                        			<li>              	  <a data-show-oneof="banner" class="flash mobile-hidden" target="_blank" href="/events/zabbix_summit_2026?utm_campaign=zabbix_summit_2026&amp;utm_source=website&amp;utm_medium=topline">Zabbix Summit 2026: Talk directly to engineers, architects, and users</a> <!-- all countries: show::  ignore:: -->
+                          
+		  	    <!-- Topline banners end -->                      	<li><a href="/msp">MSPs</a></li>                
+                      	<li class="community-dropdown mobile-hidden">
+                          <a class="community-dropdown-toggle" href="/community" aria-haspopup="true" aria-expanded="false">Community</a>
+                          <ul class="community-dropdown-menu" aria-hidden="true">
+                            <li><a href="https://blog.zabbix.com/">Blog</a></li>
+                            <li><a href="https://www.zabbix.com/forum">Forum</a></li>
+                            <li><a href="/contribute">Contribute to Zabbix</a></li>
+                            <li><a href="/developers">Developers</a></li>
+                            <li><a href="/educational_movement">Educational Movement</a></li>
+                            <li><a href="/community">Community Area</a></li>
+                            <li><a href="/subscribe">Newsletter</a></li>
+                          </ul>
+                        </li>
+					</ul>
+
+                  	<div id="search-icon">
+	  					<a href="#" aria-label="Search"></a>
+                    </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                    <dl class="nav-languages">
+                        <dt>
+                            <a class="js_language" href="#languages">
+                                <span>English (US)</span>
+                            </a>
+                        </dt>
+                        <dd id="languages" class="hidden">
+                            <ul>
+                                                                                                                                                                                <li>
+                                            <a href="/jp/page404" data-lang="jp">日本語</a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a href="/cn/page404" data-lang="cn">中文</a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a href="/la/page404" data-lang="la">Español&nbsp;(LA)</a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a href="/br/page404" data-lang="br">Português&nbsp;(BR)</a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a href="/de/page404" data-lang="de">Deutsch</a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a href="/fr/page404" data-lang="fr">Français</a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a href="/cz/page404" data-lang="cz">Czech</a>
+                                        </li>
+                                                                                                                                                <li>
+                                            <a href="/ru/page404" data-lang="ru">Русский</a>
+                                        </li>
+                                                                                                </ul>
+                        </dd>
+                    </dl>
+
+					<ul class="nav-user">
+												<li><a href="https://support.zabbix.com/servicedesk" target="_blank"><span class="i i-user i-s">Customer Login</span></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>  
+	<script>
+		app.header.scripts();
+	</script>
+  
+
+  <section id="search" class="header-search hidden">
+    <div class="w container">
+      <form id="searchForm">
+        <fieldset>
+          <input class="search-input" type="text" id="searchQuery" placeholder="Type what are you looking for" autocomplete="off">
+          <!-- <button class="search-submit" type="submit">&nbsp;</button> -->
+          <a class="js_trigger action action-l i i-remove i-only" href="#remove" data-selector=".js_find"></a>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+  
+<script>
+  var searchSection = document.getElementById('search');
+  var searchQueryInput = document.getElementById('searchQuery');
+  var searchForm = document.getElementById('searchForm');
+  var searchIcon = document.getElementById('search-icon');
+  var trigger = document.querySelector('.js_trigger');
+
+  function toggleSearchVisibility() {
+    searchSection.classList.toggle('hidden');
+  }
+
+  searchIcon.addEventListener('click', function(event) {
+    event.preventDefault();
+    toggleSearchVisibility();
+    searchQueryInput.focus();
+  });
+
+  trigger.addEventListener('click', function(event) {
+    event.preventDefault();
+    searchSection.classList.add('hidden');
+  });
+
+  searchForm.addEventListener('submit', function(event) {
+    event.preventDefault(); 
+    var actionUrl = '/search_web?query=' + encodeURIComponent(searchQueryInput.value);
+    window.location.href = actionUrl;
+  });
+  
+  function toggleSearchVisibility() {
+    searchSection.classList.toggle('hidden');
+    if (!searchSection.classList.contains('hidden')) {
+      searchQueryInput.focus();
+    }
+  }
+
+  document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.shiftKey && event.key === 'F') {
+      event.preventDefault();
+      toggleSearchVisibility();
+    }
+
+    if (event.key === 'Escape') {
+      if (!searchSection.classList.contains('hidden')) {
+        event.preventDefault();
+        searchSection.classList.add('hidden');
+      }
+    }
+  });
+</script>
+
+</header>
+
+<!-- INDEX:CONTENT_BEGIN -->
+
+<!-- INDEX:CONTENT_EXCLUDE_BEGIN -->
+
+				  
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+<div id="banners" class="swiper-container swiper disabled">
+    <div class="swiper-wrapper">
+
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+    
+      
+
+
+
+	</div> <!-- swiper-wrapper -->
+  	<div class="swiper-pagination"></div>
+  	</div> <!-- swiper-container -->
+    
+    
+                    
+<!-- INDEX:CONTENT_EXCLUDE_END -->
+
+
+
+
+
+	 	
+
+
+			
+        	
+
+
+                                                                                            
+
+<!-- INDEX:CONTENT_EXCLUDE_BEGIN -->
+<aside class="statusbar" style="  background-color: #f3f4f7;
+">
+  <div class="w container">
+	<ul class="breadcrumbs">
+      			<li><a href="/index">Home</a></li>
+	      </ul>
+  </div>
+</aside>
+<!-- INDEX:CONTENT_EXCLUDE_END -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  			{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.zabbix.com/index"
+      	}
+	  ]
+}
+</script>
+
+
+			
+			
+        	
+
+<section id="image" class="" style="  background-color: #f3f4f7; color: #134D85;
+">
+  <div class="w container ">
+    <div class="center">
+  <figure>
+    <img src="https://assets.zabbix.com/img/icons/page404.svg">
+  </figure>
+</div>
+  </div>
+</section>
+
+			
+			
+         	
+	
+
+<style>
+#forward h2.huge {
+  font-size: 60px;
+  margin-bottom: 48px;
+}
+#forward h3, #forward .text .h3 {
+  font-size: 22px;
+}
+#forward h4, #forward .text .h4 {
+  font-size: 20px;
+}
+#forward .grid-flex {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#forward h2 {
+  margin-bottom: 24px;
+}
+#forward .panel-dark {
+  background: #CFD4DB;
+  width: 100%;
+  padding: 6px 26px;
+  margin-bottom: 32px
+  }
+#forward .col2_button {
+  ;
+}
+#forward .col2 {
+  ; }
+#forward .p-dot {
+  padding: 12px 12px 12px 50px;;
+  margin-bottom: 30px;
+  background-color: #F3F4F7;
+  border: none;
+  border-radius: 6px;
+  background-image: url('https://assets.zabbix.com/img/icons/ux/dot_12_blue.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position-x: 18px;
+  background-size: 12px 12px;
+  font-family: "GothamProMedium", sans-serif;
+  color: #134d85;
+}#forward .card-course {
+    padding-bottom: 0;
+	border-radius: 4px;
+    border: 1.5px solid #F2F5F7;
+    background: #FFF;
+    box-shadow: 4px 5px 10px 3px rgba(7, 83, 156, 0.11);
+}
+#forward .card-course-bundle {
+	color: #fff;
+  	background-color: #062b66;
+  	background-image: url( 'https://assets.zabbix.com/img/backgrounds/training_bundle_1200x280.png' );
+  	background-size: cover;
+}
+#forward .currency-select>li {
+    min-width: 100px;
+}
+#forward .card-course .card-details {
+    padding: 0;
+    margin: 12px 0 12px 24px;
+    border-right: 1.5px solid #bacad3;
+}
+#forward .card-course-bundle .card-details a {
+	color: #fff;
+}
+#forward .card-course-bundle .currency-select a {
+	color: #fff;
+}
+#forward .card-course-bundle .currency-select a.active{
+	font-weight: bolder;
+}
+#forward .card-course-bundle .cards {
+	display: flex;
+  	align-items: center;
+  	column-gap: 16px;
+  	margin-top: 16px;
+}
+#forward .card-course-bundle .card {
+  	display: inline-block;
+  	background: transparent;
+  	color: #fff;
+    padding: 8px 48px;
+  	text-align: center;
+}
+#forward .card-course.card-course-extra .card-details {
+	margin: 24px 0 24px 24px;
+  	padding-right: 24px;
+}
+#forward .card-course.card-course-extra .card-details .card-button {
+	display: flex; 
+	align-items: anchor-center;
+}
+#forward .course-price ul {
+	margin-left: 0;
+  	margin-bottom: 0;
+}
+#forward .card-course .price {
+  line-height: 1.2;
+}
+#forward .card-course .course-price-footnote {
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#forward .card-course .card-button {
+  padding: 20px 0 8px;
+}
+#forward .card-course .card-button a{
+  margin-bottom: 16px;
+}
+#forward .card-course.card-course-extra .card-button {
+  padding: 32px 0 0;
+}
+#forward  .course-description{
+  margin-top: 16px;
+}
+#forward .card-details .card-button {
+	text-align: left;
+}
+#forward .card .help-anchor:before {
+    background-image: none, url(https://assets.zabbix.com/img/icons/ux/tooltip_blue.svg);
+    opacity: .6;
+    width: 16px;
+    height: 16px;
+    background-position: 0;
+}
+#forward .card.card-bundle {
+	background-color: #0275b8; 
+}
+#forward .card.card-bundle .button {
+	min-width: 216px;
+}
+#forward .card-course .card-footer {
+  padding: 24px 12px 12px 12px;
+}
+ 
+#forward .card.card-bundle-extra {
+	text-align: center;
+}
+#forward .card-bundle-extra .card-details {
+    margin: 24px 24px 0 24px;
+    padding-bottom: 16px;
+  	border-right: none;
+    border-bottom: 1.5px solid #fff;
+}
+#forward .card-bundle-extra .card-details h3 {
+  font-size: 24px;
+}
+#forward .card-bundle-extra .card-details .price {
+  font-size: 30px;
+  font-family: "GothamProMedium", sans-serif;
+}
+#forward .card-bundle-extra .course-price .price {
+  font-size: 40px;
+}#forward .card.card-course-core h3 {
+	color: #0275b8; 
+}
+#forward .card.card-course-core h3 big {
+	font-size: 36px;
+	line-height: 1.5;
+}
+#forward .card.card-course-core .card-details {
+    padding: 0;
+    margin: 24px;
+    border-right: none;
+}
+#forward .card.card-course-core .card-text-description {
+  	padding-left: 16px;
+	border-left: 2.5px solid #77787d;
+}
+#forward .card.card-course-core .card-footer {
+    padding: 0 24px 24px 24px;
+}
+#forward .card.card-course-core .button {
+    width: 100%;
+}
+#forward  .card.card-course-core .course-description {
+  text-align: center;
+}#forward .card-integration {
+  border-radius: 4px;
+  border: 1.5px solid #B0BAC7;
+  background: #FFF;
+  min-width: 210px;
+  height: 138px;
+  padding: 24px 8px 0;
+  font-size: 14px; 
+  color: #bebebe;
+  text-align: center;
+}
+#forward .card-integration:hover {
+  border-color: #0275b8;
+}
+#forward a:hover {
+  text-decoration: none;
+}
+#forward .card-integration img {
+  display: block;
+  max-height: 54px;
+  max-width: 200px;
+  margin: auto;
+  margin-bottom: 8px;
+}
+
+#forward  .grid-space.grid-flex>.span-3 {
+    width: calc(20% - 16px);
+}
+
+@media only screen and (max-width: 768px) {
+#forward .card-course.card-course-extra .card-details {
+    margin: 24px 24px 24px 24px;
+  	padding-right: 0;
+}
+#forward .card-course-bundle .cards {
+  	column-gap: 4px;
+  	justify-content: center;
+}
+#forward .card-course-bundle .description {
+  text-align: center;
+}
+#forward .card-course-bundle .card {
+    padding: 8px 8px;
+}
+  
+#forward  .grid-space.grid-flex>.span-3 {
+  width: auto;
+}
+#forward h2.huge {
+  font-size: 30px;
+}
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+#forward  .grid-space.grid-flex>.span-8 {
+    width: calc(46%);
+}
+  
+  
+#forward  .grid-space.grid-flex>.span-5 {
+    width: calc(33.333% - 16px);
+}
+#forward  .grid-space>.span.text {
+    padding-right: 0;
+}
+}#forward .text-line-right {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    position: relative;
+  	margin-bottom: 24px;
+}
+
+#forward .text-line-right span {
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+#forward .text-line-right::after {
+    content: "";
+    flex-grow: 1;
+    height: 2px;
+    background-color: #8c8d93;
+    margin-left: 4px;
+}
+
+#forward figure img, 
+#forward .gallery-image img {
+	background: #fff -0.176px -1px / 109.497% 100.286% no-repeat;
+  	box-shadow: 4px 5px 5px 3px rgba(7, 83, 156, 0.11); 
+  	border: 2px solid white; 
+	margin-bottom: 16px;
+}
+#forward .gallery-preview {
+    padding-bottom: 85%;
+}
+#forward .banner-media-conference {
+    width: auto;
+}
+@media only screen and (max-width: 960px) {
+  #forward .card-course .card-details {
+      border-right: none;
+      margin-right: 24px;
+      padding-bottom: 24px;
+      border-bottom: 1.5px solid #bacad3;
+  }
+
+  #forward .card.card-course-core .card-text-description {
+      border-bottom: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #forward.gallery-grid .grid-flex {
+      margin-bottom: 0;
+  }
+  #forward .grid-space>.span {
+      margin-bottom: 0;
+      padding-bottom: 16px;
+  }
+}
+@media only screen and (max-width: 1200x) {
+  #forward.gallery-grid .grid-flex.grid-space {
+      column-gap: normal !important;
+  }
+}
+#forward .label {
+    position: absolute;
+    top: -12px;
+    left: 24px;
+    background-color: #d40000;
+    color: white;
+    font-size: 16px;
+    padding: 2px 16px;
+  	border-radius: 8px;
+  	border-top-left-radius: unset;
+}
+
+
+
+
+#forward .accordion {
+	background: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, .07)
+}
+#forward .accordion-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 18px 24px;
+	cursor: pointer;
+	border-left: 4px solid #0275b8;
+	background: #fff;
+	user-select: none;
+	transition: background .15s
+}
+#forward .accordion-header:hover {
+	background: #f4f8fc
+}
+#forward .accordion-arrow {
+	width: 18px;
+	height: 18px;
+	min-width: 18px;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M2 8L6 4L10 8' stroke='%230275b8' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	transition: transform .25s;
+	flex-shrink: 0
+}
+#forward .accordion.collapsed .accordion-arrow {
+	transform: rotate(180deg)
+}
+#forward .accordion-title {
+	font-size: 16px;
+	font-weight: 600;
+	color: #0275b8
+}
+#forward .accordion-body {
+	overflow: hidden;
+	max-height: 2000px;
+	transition: max-height .35s ease
+}
+#forward .accordion.collapsed .accordion-body {
+	max-height: 0
+}
+</style>
+
+<section id="forward" class="gallery-grid" style="  background: #F3F4F7; padding-top: 48px; padding-bottom: 200px;
+">
+  <div class="w container">
+      <div class="text">
+<h1 class="h1 b center">
+  Oops! Page Not Found.
+</h1>
+<p class="center" style="margin-bottom: 48px;">
+  On the bright side, there’s plenty to explore on our website!
+</p>
+</div>
+      <div class="grid grid-flex grid-space" style="padding-bottom: 0;">
+        
+        
+                                	        	        	        	        	        	         	
+                            
+<div class="span span-4  text">
+  
+     
+	<div>                  		<style>
+#forward a.shadow_hover {
+	display: block;
+}
+#forward a.shadow_hover:hover {
+    padding-bottom: 0;
+    border-radius: 4px;
+    border: none;
+    background: #FFF;
+    box-shadow: 4px 5px 10px 3px rgba(7, 83, 156, 0.11);
+}
+#forward a.shadow_hover .card {
+	border: 1px solid #b0bac72e;
+}
+#forward a.shadow_hover .card .description {
+    min-height: 72px;
+}
+#forward .card-with-arrow {
+  position: relative;
+  display: inline-block; 
+  text-decoration: none;
+}
+
+#forward .card-with-arrow::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 20px;
+  height: 20px;
+  background: url('https://assets.zabbix.com/img/icons/ux/arrow-right-short.svg') no-repeat center center; 
+  background-size: contain;
+}
+
+#forward .icon-top img {
+  margin-bottom: 8px;
+}
+#forward .icon-top .description {
+  color: initial;
+}
+@media only screen and (min-width: 961px) {
+    #forward .grid-flex .icon-top {
+        padding-bottom: 0;
+    }
+}
+  
+</style>
+
+	
+<a class="shadow_hover card-with-arrow" href="/download">
+	<div class="card  ">
+      	      		<div class="grid grid-flex" style=" margin: 16px;">
+              <div class="span span-6">
+                <img src="https://assets.zabbix.com/img/icons/cloud/cloud_benefit_2.svg" alt="get_zabbix" width="70">
+              </div>
+              <div class="span span-10">
+                Get Zabbix on‑premise or in Zabbix Cloud
+              </div>
+            </div>
+      	</div>
+</a>
+
+
+      	<div class=" text">
+          
+        </div>    </div>
+     
+
+</div>
+
+                    
+                                	        	        	        	        	        	         	
+                            
+<div class="span span-4  text">
+  
+     
+	<div>                  		<style>
+#forward a.shadow_hover {
+	display: block;
+}
+#forward a.shadow_hover:hover {
+    padding-bottom: 0;
+    border-radius: 4px;
+    border: none;
+    background: #FFF;
+    box-shadow: 4px 5px 10px 3px rgba(7, 83, 156, 0.11);
+}
+#forward a.shadow_hover .card {
+	border: 1px solid #b0bac72e;
+}
+#forward a.shadow_hover .card .description {
+    min-height: 72px;
+}
+#forward .card-with-arrow {
+  position: relative;
+  display: inline-block; 
+  text-decoration: none;
+}
+
+#forward .card-with-arrow::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 20px;
+  height: 20px;
+  background: url('https://assets.zabbix.com/img/icons/ux/arrow-right-short.svg') no-repeat center center; 
+  background-size: contain;
+}
+
+#forward .icon-top img {
+  margin-bottom: 8px;
+}
+#forward .icon-top .description {
+  color: initial;
+}
+@media only screen and (min-width: 961px) {
+    #forward .grid-flex .icon-top {
+        padding-bottom: 0;
+    }
+}
+  
+</style>
+
+	
+<a class="shadow_hover card-with-arrow" href="/services">
+	<div class="card  ">
+      	      		<div class="grid grid-flex" style=" margin: 16px;">
+              <div class="span span-6">
+                <img src="https://assets.zabbix.com/img/icons/professional_services_technical_support.svg" alt="services" width="70">
+              </div>
+              <div class="span span-10">
+                Explore Zabbix Professional Services
+              </div>
+            </div>
+      	</div>
+</a>
+
+
+      	<div class=" text">
+          
+        </div>    </div>
+     
+
+</div>
+
+                    
+                                	        	        	        	        	        	         	
+                            
+<div class="span span-4  text">
+  
+     
+	<div>                  		<style>
+#forward a.shadow_hover {
+	display: block;
+}
+#forward a.shadow_hover:hover {
+    padding-bottom: 0;
+    border-radius: 4px;
+    border: none;
+    background: #FFF;
+    box-shadow: 4px 5px 10px 3px rgba(7, 83, 156, 0.11);
+}
+#forward a.shadow_hover .card {
+	border: 1px solid #b0bac72e;
+}
+#forward a.shadow_hover .card .description {
+    min-height: 72px;
+}
+#forward .card-with-arrow {
+  position: relative;
+  display: inline-block; 
+  text-decoration: none;
+}
+
+#forward .card-with-arrow::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 20px;
+  height: 20px;
+  background: url('https://assets.zabbix.com/img/icons/ux/arrow-right-short.svg') no-repeat center center; 
+  background-size: contain;
+}
+
+#forward .icon-top img {
+  margin-bottom: 8px;
+}
+#forward .icon-top .description {
+  color: initial;
+}
+@media only screen and (min-width: 961px) {
+    #forward .grid-flex .icon-top {
+        padding-bottom: 0;
+    }
+}
+  
+</style>
+
+	
+<a class="shadow_hover card-with-arrow" href="/training">
+	<div class="card  ">
+      	      		<div class="grid grid-flex" style=" margin: 16px;">
+              <div class="span span-6">
+                <img src="https://assets.zabbix.com/img/icons/professional_services_training1.svg" alt="training" width="70">
+              </div>
+              <div class="span span-10">
+                Sign up for Zabbix training courses
+              </div>
+            </div>
+      	</div>
+</a>
+
+
+      	<div class=" text">
+          
+        </div>    </div>
+     
+
+</div>
+
+                    
+                                	        	        	        	        	        	         	
+                            
+<div class="span span-4  text">
+  
+     
+	<div>                  		<style>
+#forward a.shadow_hover {
+	display: block;
+}
+#forward a.shadow_hover:hover {
+    padding-bottom: 0;
+    border-radius: 4px;
+    border: none;
+    background: #FFF;
+    box-shadow: 4px 5px 10px 3px rgba(7, 83, 156, 0.11);
+}
+#forward a.shadow_hover .card {
+	border: 1px solid #b0bac72e;
+}
+#forward a.shadow_hover .card .description {
+    min-height: 72px;
+}
+#forward .card-with-arrow {
+  position: relative;
+  display: inline-block; 
+  text-decoration: none;
+}
+
+#forward .card-with-arrow::after {
+  content: '';
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  width: 20px;
+  height: 20px;
+  background: url('https://assets.zabbix.com/img/icons/ux/arrow-right-short.svg') no-repeat center center; 
+  background-size: contain;
+}
+
+#forward .icon-top img {
+  margin-bottom: 8px;
+}
+#forward .icon-top .description {
+  color: initial;
+}
+@media only screen and (min-width: 961px) {
+    #forward .grid-flex .icon-top {
+        padding-bottom: 0;
+    }
+}
+  
+</style>
+
+	
+<a class="shadow_hover card-with-arrow" href="/webinars">
+	<div class="card  ">
+      	      		<div class="grid grid-flex" style=" margin: 16px;">
+              <div class="span span-6">
+                <img src="https://assets.zabbix.com/img/icons/webinar_65x65.svg" alt="webinars" width="70">
+              </div>
+              <div class="span span-10">
+                Explore our free webinars
+              </div>
+            </div>
+      	</div>
+</a>
+
+
+      	<div class=" text">
+          
+        </div>    </div>
+     
+
+</div>
+
+                    
+                                	        	        	        	        	        	         	
+                    
+                                	        	        	        	        	        	         	
+                          </div>
+  </div>
+</section>
+
+<script>
+  $('.js_tooltip_help').tooltip();
+</script>
+
+
+			
+<!-- /content -->
+
+<!-- INDEX:CONTENT_END -->
+
+  
+<style>
+
+#footer {
+    background: #091825;
+}
+.footer-logo {
+  padding-top: 48px;
+}
+.footer-logo img {
+  width: 137px;
+  margin-bottom: 16px;
+}
+.footer-subscribe .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+@media only screen and (max-width: 960px) {
+    .footer-subscribe .container {
+	  align-items: end;
+    }
+    .footer-subscribe {
+    	display: inline-block;
+      	margin-top: 32px;
+    }
+  	.footer hr {
+    	display: none;
+	}
+}
+.sitemap dt {
+    text-transform: unset;
+    margin-bottom: 24px;
+    font-size: 20px;
+}
+.footer dt a,
+.footer-logo p {
+  color: #fff;
+}
+.footer hr {
+  border-top-color:#343F53;
+}
+@media only screen and (min-width: 768px) {
+  .footer-logo br {
+    display: none;
+  }
+  .sitemap dl {
+    width: unset;
+	font-size: 16px;
+  }
+}
+.sitemap li {
+  margin-bottom: 12px;
+  color: #B3BBC3
+}
+.footer-subscribe-form, .footer-social {
+ display: inline-block;
+}
+.footer-subscribe-form {
+  text-align: left;
+}
+.footer-subscribe-form label {
+  padding-bottom: 8px;
+}
+.footer-social {
+  padding: 4px 0;
+  float: right;
+}
+#footer_subscribe .oneinput input[type=text] {
+  background: transparent;
+  padding: 8px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+}
+#footer_subscribe .oneinput input[type="text"]::placeholder {
+    color: #B3BBC3;
+    opacity: 1;
+}
+#footer_subscribe .oneinput input[type=text]:focus {
+  	border-color: #848487;
+}
+#footer_subscribe .oneinput button {
+  display: inline-block;
+  vertical-align: middle;
+  position: inherit;
+  border-color: #848487;
+  width: auto;
+  padding: 8px 16px;
+}
+#footer_subscribe .oneinput button:before {
+  display: none;
+}
+.copyright, .footer-nav>li {
+    font-size: 14px;
+}
+.footer-social-icons {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .footer-subscribe .container {
+    display: block;
+  }
+  .footer-subscribe {
+    display: block;
+  }
+}
+.footer-meta>.w {
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 960px) {
+  .footer-meta>.w {
+  	justify-content: space-between;
+  }
+}
+.footer-meta ul {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-nav {
+  display: block;
+  font-size: 14px;
+  width: auto !important;
+  padding: 0;
+}
+.copyright { 
+  width: auto;
+}
+@media only screen and (max-width: 768px) {
+  .footer-nav {
+  	width: auto;
+    margin-bottom: 0;
+  }
+}
+</style>
+  
+<footer id="footer">
+	<a id="up" href="#up"></a>
+
+	<div class="footer footer-main container">
+
+		<script>
+				app.component.adaptiveTabs('#footer .js_adaptive_tab');
+		</script>
+
+		<div class="footer-logo">
+          <a href="/index">
+            <img src="https://assets.zabbix.com/img/logo/zabbix.svg">
+            <p>
+              YOUR BUSINESS WORKS.<br>
+YOU KNOW IT.™
+            </p>
+          </a>
+          <hr>
+      	</div>
+      
+      	<div class="sitemap">
+            <div class="grid grid-space rid-flex"><div class="span span-4">
+                  <dl>
+                      <dt><a href="/features">Product</a></dt>
+                      <dd>
+                          <ul>
+                            <li><a href="/demo">Zabbix Overview and Demo</a></li>
+                            <li><a href="/features">Features</a></li>
+                            <li><a href="/integrations">Integrations</a></li>
+                            <li><a href="/capabilities">All Capabilities</a></li>
+                            <li><a href="/whats_new_7_4">What's New in Zabbix 7.4</a></li>
+                                                      	                            <li><a href="/life_cycle_and_release_policy">Lifecycle and Release Policy</a></li>
+                            <li><a href="/license">License</a></li>
+                            <li><a href="/roadmap">Roadmap</a></li>
+							                            <li><a href="/manuals">Documentation</a></li>
+                          </ul>
+                      </dd>
+                  </dl>
+                  <dl>
+                      <dt style="margin-top: 16px;">
+                        <a href="/solutions">Solutions</a>
+                    	</dt>
+                      <dd>
+                          <ul>
+                              <li><a href="/solutions">Solutions for industries</a></li>
+                              <li><a href="/case_studies">Case Studies</a></li>
+                                                                                          <li><a href="/nis2">NIS2 compliance</a></li>
+                          </ul>
+                      </dd>
+                  </dl>
+              </div><div class="span span-3">
+                        <dt><a href="/subscriptions">Pricing</a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="/subscriptions">Zabbix subscriptions</a></li>
+                                                              	<li><a href="/subscriptions#details">Feature comparison</a></li>
+                              	<li><a href="/subscriptions#faq">FAQ</a></li>
+                            </ul>
+                        </dd>
+                        <dt style="margin-top: 24px;">
+                          <a href="/cloud">Zabbix Cloud</a>
+                		</dt>
+                        <dd>
+                            <ul>
+                              <li><a href="/cloud">Benefits</a></li>
+                              <li><a href="/cloud#pricing">Pricing</a></li>
+                              <li><a href="https://cloud.zabbix.com/">Free trial</a></li>
+                            </ul>
+                        </dd>
+                        <dt style="margin-top: 24px;">
+                          <a href="/cloud">Public Clouds</a>
+                		</dt>
+                        <dd>
+                            <ul>
+                              <li><a href="/cloud_images?vendor=AWS">AWS</a></li>
+                              <li><a href="/cloud_images?vendor=Azure">Azure</a></li>
+                              <li><a href="/cloud_images?vendor=Google+Cloud+Platform">Google Cloud Platform</a></li>
+                                                            <li><a href="/cloud_images?vendor=Red+Hat+OpenShift">Red Hat OpenShift</a></li>
+                            </ul>
+                        </dd>
+              </div><div class="span span-9">
+                  <div class="grid grid-space grid-flex">
+                    
+                    <dl class="span span-5">
+                        <dt><a href="/services">Services</a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="/support">Support</a></li>
+                              	<li><a href="/msp">Zabbix for MSP</a></li>
+                                <li><a href="/consulting">Consulting</a></li>
+                                <li><a href="/turn_key_solution">Implementation</a></li>
+                                <li><a href="/services">All professional services</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="span span-5">
+                        <dt><a href="/partners">Partners</a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="/partners">Partner Program</a></li>
+                                <li><a href="/partnership">Become a Partner</a></li>
+                                <li><a href="/distributors">Distributors</a></li>
+                                <li><a href="/partners#map_of_partners">Map of partners</a></li>
+                              	<li><a href="/forms/become_partner">Application form</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="span span-5">
+                        <dt><a href="/events">Events</a></dt>
+                        <dd>
+                            <ul>
+                                <li><a href="/events?type=summit">Zabbix Summit</a></li>
+                                <li><a href="/events?type=conference">Conferences</a></li>
+                                <li><a href="/events?type=meeting">Free meetings & meetups</a></li>
+                                <li><a href="/webinars">Free webinars</a></li>
+                              	<li><a href="/events">All events</a></li>
+                            </ul>
+                        </dd>
+                    </dl>                      
+                  </div>
+                  <div class="grid grid-space grid-flex">
+ 
+                    <dl class="span span-5">
+                        <dt><a href="/training">Training</a></dt>
+                        <dd>
+                            <ul>
+                              	<li><a href="/training">Training overview</a></li>
+                                <li><a href="/training_courses_core">Core courses</a></li>
+                                <li><a href="/training_courses_upgrade">Upgrade courses</a></li>
+                                <li><a href="/training_courses_extra">Extra courses</a></li>
+                              	<li><a href="/forms/training_application_form">Application form</a></li>
+                                <li><a href="https://academy.zabbix.com">Zabbix Academy</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="span span-5">
+                        <dt><a href="/about">Company</a></dt>
+                        <dd>
+                            <ul>
+                              	<li><a href="/contact">Contact Us</a></li>
+                              	<li><a href="/about">About Us</a></li>
+                                <li><a href="/career">Join Us&nbsp;<span class="menu-tag-red">We are hiring!</span></a></li>
+
+                                <li><a href="/pressroom">Pressroom</a></li>
+                              	<li><a href="/users">Customers & users</a></li>
+                                <li><a href="/trademark">Trademark Policy</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="span span-5">
+                        <dt><a href="/community">Community</a></dt>
+                        <dd>
+                            <ul>
+                              	<li><a href="https://blog.zabbix.com/">Blog</a></li>
+                                <li><a href="https://www.zabbix.com/forum/">Forum</a></li>
+                                <li><a href="/developers">Developers</a></li>
+                              	<li><a href="/contribute">Contribute to Zabbix</a></li>
+                              	<li><a href="/educational_movement">Educational Movement</a></li>
+                              
+                              
+                                <li><a href="/community">Community Area</a></li>
+                            </ul>
+                        </dd>
+                    </dl>
+                    <dl class="span span-4">
+                    </dl>
+                </div>
+                
+              </div>
+              
+		  </div>
+      </div>
+    </div>
+
+	
+  
+		<div class="footer-subscribe">
+		<div class="w container">
+						<form id="footer_subscribe" class="footer-subscribe-form mobile-hidden" action="/server/server.php?action=subscribe">
+				<input type="hidden" name="lang" value="en">
+				<label>Join 80,000+ Zabbix news readers</label>
+
+				<div class="oneinput">
+					<input type="text" name="email" autocomplete="off" placeholder="Enter your email">
+					                  	<button type="submit" class="button button-s button-transparent" aria-label="Subscribe">Subscribe</button>
+				</div>
+			</form>
+
+			          
+			<div class="footer-social-icons">
+					<a class="social social-twitter" href="https://twitter.com/zabbix" rel="noreferer noopener" target="_blank" aria-label="Zabbix on Twitter"></a>
+					<a class="social social-facebook" href="https://www.facebook.com/zabbix" rel="noreferer noopener" target="_blank" aria-label="Zabbix on Facebook"></a>
+					<a class="social social-reddit" href="https://www.reddit.com/r/zabbix/" rel="noreferer noopener" target="_blank" aria-label="Zabbix on Reddit"></a>
+					<a class="social social-linkedin" href="https://www.linkedin.com/company/zabbix" rel="noreferer noopener" target="_blank"  aria-label="Zabbix on Linkedin"></a>
+					<a class="social social-youtube" href="https://www.youtube.com/user/ZabbixSIA/videos" rel="noreferer noopener" target="_blank" aria-label="Zabbix on Youtube"></a>
+			</div>
+          
+			<script>
+				$('#footer_subscribe').submit(function(event){
+					event.preventDefault();
+
+					var field = this.email,
+						value = field.value;
+
+					if (app.helpers.isValidEmail(field.value)) {
+                        fetch($(this).attr('action'), {
+                            method: 'POST',
+                            body: new FormData(this)
+                        });
+
+						// on success
+						this.reset();
+
+						var $msg = $('<span class="success">Your message sent!</span>')
+							.insertBefore(this.email)
+							.click(function(event){
+								event.preventDefault();
+
+								$msg.removeClass('show');
+							});
+
+						setTimeout(function(){
+							$msg.addClass('show');
+						}, 0);
+
+						setTimeout(function(){
+							$msg.removeClass('show');
+						}, 5000);
+
+						setTimeout(function(){
+							$(field).blur();
+						}, 600);
+					} else {
+						// on error
+						$(field)
+							.addClass('invalid')
+							.off('keyup')
+							.on('keyup', function(){
+								if (value.length !== this.value.length) {
+									$(this)
+										.removeClass('invalid')
+										.prev()
+										.remove();
+								}
+							})
+							.before('<span class="error">Please enter valid email address</span>');
+					}
+				});
+			</script>
+		</div>
+	</div>
+
+	<div class="footer footer-meta">
+		<div class="w container">
+			<div class="footer-nav">
+              <ul>
+                  <li><a href="/zabbix_security_policy">Security Policy</a>
+                                        <li><a href="/privacy_policy">Privacy Policy</a>
+                                    <li><a href="/trademark">Trademark Policy</a></li>
+                  <li><a href="/forms/legal_request">Legal Request</a></li>
+              </ul>
+			</div>
+			<p class="copyright">© 2001-2026 by Zabbix LLC. All rights reserved.</p>
+		</div>
+	</div>
+  
+  
+</footer>
+<div id="modalDestination"></div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const communityDropdowns = Array.from(document.querySelectorAll('.community-dropdown'));
+
+  if (!communityDropdowns.length) {
+    return;
+  }
+
+  const setDropdownState = (dropdown, isOpen) => {
+    const toggle = dropdown.querySelector('.community-dropdown-toggle');
+    const menu = dropdown.querySelector('.community-dropdown-menu');
+
+    if (!toggle || !menu) {
+      return;
+    }
+
+    dropdown.classList.toggle('is-open', isOpen);
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    menu.setAttribute('aria-hidden', isOpen ? 'false' : 'true');
+  };
+
+  const closeAllDropdowns = (focusToggle = false) => {
+    communityDropdowns.forEach((dropdown) => {
+      const toggle = dropdown.querySelector('.community-dropdown-toggle');
+      const wasOpen = dropdown.classList.contains('is-open');
+
+      setDropdownState(dropdown, false);
+
+      if (focusToggle && wasOpen && toggle) {
+        toggle.focus();
+      }
+    });
+  };
+
+  communityDropdowns.forEach((dropdown, index) => {
+    const toggle = dropdown.querySelector('.community-dropdown-toggle');
+    const menu = dropdown.querySelector('.community-dropdown-menu');
+
+    if (!toggle || !menu) {
+      return;
+    }
+
+    if (!menu.id) {
+      menu.id = 'community-dropdown-menu-' + (index + 1);
+    }
+
+    toggle.setAttribute('aria-controls', menu.id);
+    setDropdownState(dropdown, false);
+
+    toggle.addEventListener('click', (event) => {
+      event.preventDefault();
+
+      const shouldOpen = !dropdown.classList.contains('is-open');
+      closeAllDropdowns();
+      setDropdownState(dropdown, shouldOpen);
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    communityDropdowns.forEach((dropdown) => {
+      if (!dropdown.contains(event.target)) {
+        setDropdownState(dropdown, false);
+      }
+    });
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeAllDropdowns(true);
+    }
+  });
+
+  window.addEventListener('scroll', () => {
+    closeAllDropdowns();
+  }, { passive: true });
+
+  window.addEventListener('resize', () => {
+    closeAllDropdowns();
+  });
+});
+</script>
+
+</body>
+</html>
